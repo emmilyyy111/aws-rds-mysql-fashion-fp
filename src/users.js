@@ -1,6 +1,5 @@
 const mysql = require('mysql') // importing mysql library we added from npm
 const { dbconfig } = require('../dbconfig') // uses our secrets
-const { secret } = require('../secrets')
 const db = mysql.createConnection(dbconfig) // makes connection
 db.connect() // opens connection
 
